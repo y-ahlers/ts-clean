@@ -4,6 +4,8 @@ export interface UseCase {
 
 export type UseCaseFactory<T> = (port: T) => UseCase;
 
+export type Renders<ViewModel> = (model: ViewModel) => void;
+
 export interface UseCaseController<E> {
   handle(event: E): Promise<void> | void;
 }
