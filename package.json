@@ -2,8 +2,8 @@
   "name": "ts-clean",
   "version": "1.0.0",
   "description": "Clean architecture types for browser, node.js and deno",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "tsc --noEmit",
     "build": "tsc"
